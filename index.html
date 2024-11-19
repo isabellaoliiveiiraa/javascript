@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+  alert('bem vindo')
+  console.log("este e o console do computador ")
+
+
+  
+// Declarando variáveis
+let nome = "Ana";
+let idade = 30;
+
+// Exibindo as variáveis
+alert("Meu nome é " + nome + " e tenho " + idade + " anos.");
+console.log("Nome:", nome);
+console.log("Idade:", idade);
+
+
+// Pedindo o nome do usuário
+let nomeUsuario = prompt("Qual é o seu nome?");
+
+// Exibindo uma mensagem personalizada
+alert("Olá, " + nomeUsuario + "! Seja bem-vindo ao JavaScript!");
+console.log("O usuário digitou o nome:", nomeUsuario);
+
+
+// Guardando dois números
+let numero1 = prompt("Qual é o numero 1?");
+let numero2 = prompt("Qual é o numero 2?");
+
+// Convertendo os valores para números
+numero1 = Number(numero1);
+numero2 = Number(numero2);
+
+// Calculando a soma
+let soma = numero1 + numero2;
+
+// Exibindo o resultado
+alert("A soma de " + numero1 + " e " + numero2 + " é: " + soma);
+console.log("Resultado da soma:", soma);
+
+
+   </script> 
+</body>
+<script src="SCRIPT.JS"></script>
+</html>
+
+
+
+
+//Conta de Restaurante
+let valor = prompt('qual o valor da conta?')
+let porcemtegem = prompt('qual a porcentagem de gorjeta desejada?')
+valor = Number(valor)
+porcentagem = Number(porcentagem)
+let valorgorjeta = Number(valor) * Number(porcentagem)
+let totalconta = Number(valor) + valorgorjeta
+alert(`o valor da gorjeta é R$${valorgorjeta.toFixed(2)}. o total a pagar é R$${totalconta.toFixe(2)}`)
