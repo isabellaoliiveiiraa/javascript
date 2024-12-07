@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //nome
+let nome = prompt('qual seu nome?')
+alert('ola ' + nome + '! Seja bem-vindo')
+//numero
+let numero1 = prompt("Qual é o numero 1?");
+let numero2 = prompt("Qual é o numero 2?");
+numero1 = Number(numero1);
+numero2 = Number(numero2);
+let soma = numero1 + numero2;
+alert("A soma de " + numero1 + " e " + numero2 + " é: " + soma);
+console.log("Resultado da soma:", soma);
+//calculo de idade 
+let ano = prompt('digite o ano atual')
+let data = prompt('digite o ano que voce nasceu')
+ano = Number(ano)
+data = Number(data)
+let subtrair = ano - data
+alert('voce tem ' + subtrair + ' anos')
+//sorvete
+let quantidade = prompt('quantos sorvetes vc deseja?')
+let preco = prompt('diga o preco')
+let total = Number(quantidade) * Number(preco)
+let multiplicar = quantidade * preco
+alert('o total é R$ ' + multiplicar)
+//jogo de adivinha 
+let numeroescondido = Math.floor(Math.random() * 10) + 1;
+let chute = prompt('adivinhe o numero secreto');
+alert(`o numero secreto era ${numeroescondido}. voce chutou ${chute}.`);
+//Exibição de Números
+let escolha = prompt('escolha dois numeros')
+alert('os numeros que vc escolheu sao: ' + escolha)
+
+// Previsão do Futuro
+let nomefuturo = prompt('qual seu nome?')
+let anoatualfuturo = ('digite o ano atual')
+let anosfuturos = prompt('quantos anos vc quer adicionar?')
+let anofuturo = Number(anoatualfuturo) + number(anosfuturos)
+alert(`Olá, ${nomeFuturo}! Daqui a ${anosFuturo} anos estaremos no ano ${anoFuturo}.`)
+
+</script>
+</html>
